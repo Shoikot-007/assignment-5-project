@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -76,4 +75,12 @@ body{
     color: rgba(17, 17, 17, 0.7);
     font-size: 1rem;
     font-weight: 300;    
+}
+
+.donateNowBtns{
+    transition: all 0.15s ease-in;
+}
+
+.donateNowBtns:hover{
+    background-color: rgba(180, 244, 97, 0.6);
 }

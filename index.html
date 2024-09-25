@@ -11,10 +11,10 @@
 </head>
 <body class="max-w-[1440px] flex flex-col items-center mx-auto">
     
-    <header class="w-full max-w-[1240px] lg:pt-6 lg:pb-8 pt-4 pb-4 sticky top-0 flex flex-col lg:gap-[80px] gap-4 backdrop-blur-xl px-4">
+    <header class="w-full max-w-[1240px] lg:pt-6 lg:pb-8 pt-4 pb-4 sticky top-0 flex flex-col lg:gap-[80px] gap-3 backdrop-blur-xl px-4">
         
-        <div class="flex justify-between items-center">
-            <div class="">
+        <div class="grid grid-rows-1 grid-cols-3">
+            <div class="flex justify-start">
                 <a href="index2.html">
 
                     <button class="btn h-full min-h-full btn-main btn-text-main lg:px-8 py-3 px-5">
@@ -24,7 +24,7 @@
                 </a>
             </div>
 
-            <div class="flex gap-3">
+            <div class="flex justify-center gap-3">
                 <a href="index.html">
                     <svg width="48.000000" height="48.000046" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <desc>
@@ -127,7 +127,7 @@
                 
             </div>
         
-            <div class="flex gap-2">
+            <div class="flex justify-end items-center gap-2">
                 <svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <desc>
                             Created with Pixso.
@@ -227,7 +227,7 @@
 
                             <img src="assets/coin.png" alt="">
                             <span>
-                                <span id="totalCollectedNoakhali" class="">42000</span> <span>BDT</span>
+                                <span id="totalCollectedNoakhali" class="">48580</span> <span>BDT</span>
                             </span>
                         </div>
                     </div>
@@ -243,7 +243,7 @@
     
                     <div class="flex flex-col gap-4">
                         <input id="amountNoakhali" type="text" placeholder="Write Donation Amount" class="amountInput w-full">
-                        <button id="donateToNoakhali" class="btn-main btn-text-main w-full px-8 py-4">Donate Now</button>
+                        <button id="donateToNoakhali" class="donateNowBtns btn-main btn-text-main w-full px-8 py-4">Donate Now</button>
 
                         <!-- modal -->
                         <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
@@ -281,13 +281,13 @@
 
                             <img src="assets/coin.png" alt="">
                             <span>
-                                <span id="totalCollectedFeni" class="">69000</span> <span>BDT</span>
+                                <span id="totalCollectedFeni" class="">33000</span> <span>BDT</span>
                             </span>
                         </div>
                     </div>
 
                     <div>
-                        <h1 class="btn-text-main font-bold">Donate for Flood Relief in Feni, Bangladesh</h1>
+                        <h1 class="btn-text-main font-bold">Donate for Flood Relief in Feni,Bangladesh</h1>
                         <p class="pt-4 description">
                           The recent floods in Feni have devastated local communities, causing severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer vital support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.
                         </p>
@@ -297,7 +297,7 @@
     
                     <div class="flex flex-col gap-4">
                         <input type="text" placeholder="Write Donation Amount" class="amountInput w-full">
-                        <button id="donateToFeni" class="btn-main btn-text-main w-full px-8 py-4">Donate Now</button>
+                        <button id="donateToFeni" class="donateNowBtns btn-main btn-text-main w-full px-8 py-4">Donate Now</button>
                     </div>
     
     
@@ -317,7 +317,7 @@
 
                             <img src="assets/coin.png" alt="">
                             <span>
-                                <span id="totalCollectedQuota" class="">54000</span> <span>BDT</span>
+                                <span id="totalCollectedQuota" class="">24000</span> <span>BDT</span>
                             </span>
                         </div>
                     </div>
@@ -333,7 +333,7 @@
     
                     <div class="flex flex-col gap-4">
                         <input type="text" placeholder="Write Donation Amount" class="amountInput w-full">
-                        <button id="donateToQuota" class="btn-main btn-text-main w-full px-8 py-4">Donate Now</button>
+                        <button id="donateToQuota" class="donateNowBtns btn-main btn-text-main w-full px-8 py-4">Donate Now</button>
                     </div>
     
     
@@ -345,14 +345,17 @@
 
         <!-- history section  -->
         <section class="hidden flex-col gap-6 px-4 lg:px-0" id="historySection">
-
+            <div class="historyCard">
+                <h1>580 Taka Donated to "Donate for Flood Relief at Noakhali, Bangladesh"</h1>
+                <p>Date: Wed Sep 25 2024 00:49:17 GMT+0600 (Bangladesh Standard Time)</p>
+            </div>
         </section>
         
     </main>
 
 
 <script src="scripts/main.js"></script>
-<script src="scripts/secondary.js"></script>
+<script src="scripts/buttonSwitch.js"></script>
 <script src="scripts/history.js"></script>
 </body>
 </html>
